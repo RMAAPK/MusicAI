@@ -1,6 +1,6 @@
 # MusicAI: Zero-Cost Discrete Harmonic Codebook Synthesis and Parametric Memory Grafting
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.placeholder.svg)](https://zenodo.org)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23859117.svg)](https://doi.org/10.5281/zenodo.23859117)
 [![Verification CI](https://github.com/RMAAPK/MusicAI/actions/workflows/ci.yml/badge.svg)](https://github.com/RMAAPK/MusicAI/actions)
 [![License: BSL 1.1](https://img.shields.io/badge/License-BSL%201.1-red.svg)](LICENSE)
 [![HuggingFace Codebook](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Codebook%20Repository-blue)](https://huggingface.co/datasets/rmaapk/music)

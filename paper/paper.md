@@ -2,6 +2,7 @@
 
 **Author:** Raja Muhammad Ali Asghar (`say@rmaa.pk`)  
 **Affiliation:** MusicAI / Ali CNC / RMAA PK  
+**DOI:** [10.5281/zenodo.23859117](https://doi.org/10.5281/zenodo.23859117)  
 **Repository & Codebook:** [`https://github.com/RMAAPK/MusicAI`](https://github.com/RMAAPK/MusicAI)  
 **Artifact Codebook:** [`https://huggingface.co/datasets/rmaapk/music`](https://huggingface.co/datasets/rmaapk/music)  
 **Target DOI Indexing:** Zenodo / arXiv (Sound & Audio Processing `cs.SD` / Information Retrieval `cs.IR`)
