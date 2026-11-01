@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.placeholder.svg)](https://zenodo.org)
 [![Verification CI](https://github.com/RMAAPK/MusicAI/actions/workflows/ci.yml/badge.svg)](https://github.com/RMAAPK/MusicAI/actions)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: BSL 1.1](https://img.shields.io/badge/License-BSL%201.1-red.svg)](LICENSE)
 [![HuggingFace Codebook](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Codebook%20Repository-blue)](https://huggingface.co/datasets/rmaapk/music)
 
 A mathematical architecture and cloud execution paradigm for **Retrieval-Augmented Generation (RAG)** on high-frequency continuous acoustic waveforms. Acoustic-RAG bridges the gap between discrete semantic tokens and phase-settled high-frequency spectral synthesis ($12\text{ kHz} - 20\text{ kHz}$) without multi-million parameter diffusion post-processors.
@@ -118,4 +118,4 @@ store.insert_category_matrix(category_id=412, matrix_1500=settled_matrix)
 ---
 
 ## 6. License
-MIT License. Open-source research by **RMAA PK / Ali CNC** (Raja Muhammad Ali Asghar).
+Business Source License (BSL 1.1). Free for non-commercial, educational, and academic research purposes. Commercial production rights convert to GPLv3 on the Change Date (2030-01-01). Copyright (c) 2026 **RMAA PK / Ali CNC** (Raja Muhammad Ali Asghar).
