@@ -1,8 +1,9 @@
-# Acoustic-RAG: Zero-Cost Discrete Harmonic Codebook Synthesis and Parametric Memory Grafting on Constrained Cloud Accelerators
+# MusicAI: Zero-Cost Discrete Harmonic Codebook Synthesis and Parametric Memory Grafting on Constrained Cloud Accelerators
 
 **Author:** Raja Muhammad Ali Asghar (`say@rmaa.pk`)  
-**Affiliation:** Ali CNC / RMAA PK  
-**Repository & Codebook:** [`https://huggingface.co/datasets/rmaapk/music`](https://huggingface.co/datasets/rmaapk/music)  
+**Affiliation:** MusicAI / Ali CNC / RMAA PK  
+**Repository & Codebook:** [`https://github.com/RMAAPK/MusicAI`](https://github.com/RMAAPK/MusicAI)  
+**Artifact Codebook:** [`https://huggingface.co/datasets/rmaapk/music`](https://huggingface.co/datasets/rmaapk/music)  
 **Target DOI Indexing:** Zenodo / arXiv (Sound & Audio Processing `cs.SD` / Information Retrieval `cs.IR`)
 
 ---
@@ -11,7 +12,7 @@
 
 Modern deep learning architectures for acoustic generation, stem synthesis, and zero-shot voice conversion (e.g., RVC, Diff-SVC, Demucs, AudioCraft) exhibit severe high-frequency degradation, phase indeterminacy, and metallic distortion ("husking") in extreme frequency bands (\(12 \text{ kHz} - 20 \text{ kHz}\)). Mitigating these artifacts traditionally requires multi-billion parameter autoregressive decoders trained on multi-node H100 clusters. 
 
-We present **Acoustic-RAG (Retrieval-Augmented Generation for Continuous Waveform Synthesis)**, a novel, ultra-lightweight architectural paradigm that combines:
+We present **MusicAI**, a novel, ultra-lightweight architectural paradigm that combines:
 1. **Discrete Uniform Frequency Decomposition** on a 40 kHz Nyquist grid with 2,000 linear 10 Hz frequency partitions;
 2. **Deterministic Energy Floor Clamping and INT16 Quantization** reducing full continuous spectrogram representations into packed discrete bit-streams;
 3. **Cyclic State Space Settlement (1,500-State Modulo Harmonic Memory)**; and

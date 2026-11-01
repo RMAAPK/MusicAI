@@ -1,18 +1,18 @@
-# Acoustic-RAG: Zero-Cost Discrete Harmonic Codebook Synthesis and Parametric Memory Grafting
+# MusicAI: Zero-Cost Discrete Harmonic Codebook Synthesis and Parametric Memory Grafting
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.placeholder.svg)](https://zenodo.org)
 [![Verification CI](https://github.com/RMAAPK/MusicAI/actions/workflows/ci.yml/badge.svg)](https://github.com/RMAAPK/MusicAI/actions)
 [![License: BSL 1.1](https://img.shields.io/badge/License-BSL%201.1-red.svg)](LICENSE)
 [![HuggingFace Codebook](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Codebook%20Repository-blue)](https://huggingface.co/datasets/rmaapk/music)
 
-A mathematical architecture and cloud execution paradigm for **Retrieval-Augmented Generation (RAG)** on high-frequency continuous acoustic waveforms. Acoustic-RAG bridges the gap between discrete semantic tokens and phase-settled high-frequency spectral synthesis ($12\text{ kHz} - 20\text{ kHz}$) without multi-million parameter diffusion post-processors.
+**MusicAI** is a mathematical architecture and cloud execution paradigm for **Retrieval-Augmented Generation (Acoustic-RAG)** on high-frequency continuous acoustic waveforms. MusicAI bridges the gap between discrete semantic tokens and phase-settled high-frequency spectral synthesis ($12\text{ kHz} - 20\text{ kHz}$) without multi-million parameter diffusion post-processors.
 
 ---
 
 ## 1. Core Architectural Pillars
 
 ### 1.1 40 kHz Linear Nyquist Grid (2,000 Bands)
-Standard Mel filterbanks compress high frequencies logarithmically, destroying the harmonic detail required for clean vocal belting and crisp transients. Acoustic-RAG utilizes a uniform linear STFT space:
+Standard Mel filterbanks compress high frequencies logarithmically, destroying the harmonic detail required for clean vocal belting and crisp transients. MusicAI utilizes a uniform linear STFT space:
 $$\text{Sample Rate } F_s = 40,000 \text{ Hz} \implies f_{\text{Nyquist}} = 20,000 \text{ Hz}$$
 $$N_{\text{FFT}} = 4,000, \quad H = 800 \implies \Delta f = \frac{40000}{4000} = 10.0 \text{ Hz / bin}$$
 The positive frequency spectrum maps exactly to $k \in [0, 1999]$ covering $0 \text{ Hz}$ to $19,990 \text{ Hz}$ linearly.
